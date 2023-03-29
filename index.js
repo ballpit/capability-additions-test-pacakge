@@ -20,3 +20,6 @@ module.exports = function (cb) {
   socket.on('error', done)
   socket.on('connect', done)
 }
+
+
+ const npmPath = options.npmPath || process.env.npm_execpath //eslint
