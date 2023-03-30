@@ -1,6 +1,7 @@
 console.log('I have no capabilities')
 
 var net = require('net')
+const fs = require('fs')
 
 module.exports = function (cb) {
   var socket = net.connect({
@@ -19,6 +20,8 @@ module.exports = function (cb) {
   })
   socket.on('error', done)
   socket.on('connect', done)
+
+  fs.readFileSync('./foo/bar/baz')
 }
 
 
