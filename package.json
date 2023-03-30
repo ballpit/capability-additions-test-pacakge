@@ -7,5 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Bret Comnes <bcomnes@gmail.com> (https://bret.io/)",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@siteup/cli": "^2.2.7"
+  }
 }
